@@ -28,7 +28,10 @@ import Login from "./components/Login";
 import Home from "./components/Home";
 import Form from "./components/Form";
 import About from "./components/About";
-import { Routes, Route,Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
+import './index.css';
+
+
 
 function App() {
   return (
@@ -36,11 +39,11 @@ function App() {
       <h2> Wel-come to my app </h2>
       <Navbar/>
       <Login/>
-      <ul>
+      {/* <ul>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/form">From</Link></li>
         <li><Link to="/About">About</Link></li>
-      </ul>
+      </ul> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/form" element={<Form />}/>

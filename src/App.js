@@ -40,7 +40,8 @@ function App() {
       <h2> Wel-come to my app </h2>
       <Navbar/>
       <Login/>
-      <LoginSummary/>
+      {/* <LoginSummary/> */}
+      
       {/* <ul>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/form">From</Link></li>
@@ -50,6 +51,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/form" element={<Form />}/>
         <Route path="/About" element={<About />}/>
+        <Route path="/LoginSummary" element={<LoginSummary/>}/>
       </Routes>
     </div>
   );

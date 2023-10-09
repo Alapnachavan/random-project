@@ -51,8 +51,8 @@ const Navbar = () => {
         <Grid container alignItems="center" justifyContent="space-between">
           <Grid item md={3}>
             <Tabs value={tabValue} onChange={handleChange}>
-              <Tab label={<Link to="/home">Home</Link>} />
-              <Tab label={<Link to="/about">About</Link>} />
+              <Tab label={<Link to="/">Home</Link>} />
+              <Tab label={<Link to="/About">About</Link>} />
               <Tab label={<Link to="/form">Form</Link>} />
             </Tabs>
           </Grid>

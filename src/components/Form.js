@@ -21,8 +21,10 @@
 
 
 import React from 'react';
-
+import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 const Form = () => {
+    const navigate=useNavigate()
   return (
     <div className="form-container">
       <div className="form-box">
@@ -33,8 +35,9 @@ const Form = () => {
           <input type="text" placeholder="Enter user id" />
           <br /> <br />
           <input type="text" placeholder="Enter the User Password" />
-          <br /> <br />
-          <button type="submit">Login</button>
+          {/* <br /> <br /> */}
+          {/* <button type="submit">Login</button> */}
+          <button onClick={() => navigate("corect-login")}>Login</button>
         </form>
       </div>
     </div>

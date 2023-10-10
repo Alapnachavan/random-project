@@ -1,27 +1,4 @@
 
-// import React from "react";
-// import { BrowserRouter as Router, Route,  } from "react-router-dom";
-// import Navbar from "./components/Navbar";
-// import Home from "./components/Home";
-// import Form from "./components/Form";
-
-// function App() {
-//   return (
-//     <Router>
-//       <div>
-//         <Navbar />
-        
-        
-//           <Route path="/" exact component={Home} />
-//           <Route path="/form" component={Form} />
-       
-       
-//       </div>
-//     </Router>
-//   );
-// }
-
-// export default App;
 import React from "react";
 import Navbar from "./components/Navbar";
 import Login from "./components/Login";
@@ -31,6 +8,7 @@ import About from "./components/About";
 import LoginSummary from "./components/LoginSummary";
 import { Routes, Route } from "react-router-dom";
 import './index.css';
+import Cardinfo from "./components/Home";
 
 
 
@@ -40,6 +18,8 @@ function App() {
       <h2> Wel-come to my app </h2>
       <Navbar/>
       <Login/>
+      
+
       {/* <LoginSummary/> */}
       
       {/* <ul>
@@ -52,6 +32,7 @@ function App() {
         <Route path="/form" element={<Form />}/>
         <Route path="/About" element={<About />}/>
         <Route path="/LoginSummary" element={<LoginSummary/>}/>
+        <Route path= "/CardInfo" element={<Cardinfo/>}/>
       </Routes>
     </div>
   );

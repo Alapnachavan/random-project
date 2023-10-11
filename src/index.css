@@ -22,6 +22,8 @@ code {
 }
 
 .form-box {
+  height: 500px;
+  width: 300px;
   background-color: white; /* Set the background color of the form box */
   padding: 20px;
   border: 1px solid #ccc; /* Add a border around the form box */

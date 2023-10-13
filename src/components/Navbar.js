@@ -1,38 +1,4 @@
 
-// import React from "react";
-// import { AppBar, Button, Grid, Tab, Tabs, Toolbar } from "@mui/material";
-// import Box from "@mui/material/Box";
-// import { Link } from "react-router-dom"; // Import Link from react-router-dom
-
-// const Navbar = () => {
-//   return (
-//     <AppBar>
-//       <Toolbar>
-//         <Grid container alignItems="center" justifyContent="space-between">
-//           <Grid item md={3}>
-//             <Tabs>
-//               <Tab label={<Link to="/home">Home</Link>} />
-//               <Tab label={<Link to="/about">About</Link>} />
-//               <Tab label={<Link to="/form">Form</Link>} />
-//             </Tabs>
-//           </Grid>
-//           <Grid item md={8}>
-//             <Box sx={{ marginLeft: "auto" }}>
-//               <Button variant="contained">
-//                 <Link to="/login">Login</Link>
-//               </Button>
-//               <Button sx={{ marginLeft: 1 }} variant="contained">
-//                 <Link to="/signup">Signup</Link>
-//               </Button>
-//             </Box>
-//           </Grid>
-//         </Grid>
-//       </Toolbar>
-//     </AppBar>
-//   );
-// };
-
-// export default Navbar;
 
 import React, { useState } from "react";
 import { AppBar, Button, Grid, Tab, Tabs, Toolbar,Box } from "@mui/material";
@@ -59,10 +25,10 @@ const Navbar = () => {
           <Grid item md={8}>
             <Box sx={{ marginLeft: "auto" }}>
               <Button variant="contained">
-                <Link to="/login">Login</Link>
+                <Link to="/login">visit</Link>
               </Button>
               <Button sx={{ marginLeft: 1 }} variant="contained">
-                <Link to="/signup">Signup</Link>
+                <Link to="/signup">search</Link>
               </Button>
             </Box>
           </Grid>
@@ -73,4 +39,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-

@@ -35,7 +35,6 @@ const Home = () => {
   }
 
   const handleDelete = (movieId) => {
-    // Filter the data array to exclude the movie with the specified ID
     const updatedData = data.filter((movie) => movie.id !== movieId);
     setData(updatedData);
   };
@@ -93,3 +92,4 @@ const Home = () => {
 };
 
 export default Home;
+

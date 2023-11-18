@@ -13,6 +13,8 @@ import Visit from './components/visit';
 import './index.css';
 import Cardinfo from "./components/Home";
 import Search from "./components/searchbar";
+import Footer from "./components/Footer";
+// import UserProfile from "./components/profile";
 export const userContext=createContext()
 // import Search from "./components/searchbar";
  
@@ -22,7 +24,7 @@ function App() {
   return (
     <div>
       <Navbar/>
-      <Login/>
+      {/* <Login/> */}
       
       
       <Routes>
@@ -39,6 +41,8 @@ function App() {
          {/* <Visit/> */}
       </userContext.Provider>
        {/* <Visit/> */}
+       {/* <UserProfile/> */}
+       <Footer/>
       </div>
     
   );

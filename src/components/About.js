@@ -35,8 +35,8 @@ const About = () => {
       <TableContainer component={Paper}>
         <Table>
           <TableHead>
-            <TableRow>
-              <TableCell>ID</TableCell>
+            <TableRow sx={{ backgroundColor: "grey" }}>
+              <TableCell >ID</TableCell>
               <TableCell>Movie Name</TableCell>
               <TableCell>Rating</TableCell>
               <TableCell>Released Year</TableCell>
